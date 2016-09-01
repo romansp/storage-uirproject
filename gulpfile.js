@@ -5,9 +5,9 @@ var minimist = require('minimist');
 var args = minimist(process.argv.slice(2));
 
 gulp.task('deploy', function() {
-  var remotePath = '/storage.uirproject.ru/www/';
+  var remotePath = args.dir;
   var conn = ftp.create({
-    host: 'u461958.ftp.masterhost.ru',
+    host: args.host,
     user: args.user,
     password: args.password,
     parallel: 5,
