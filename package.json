@@ -10,9 +10,6 @@
     "minimist": "^1.2.0",
     "vinyl-ftp": "^0.5.0"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/romansp/storage-uirproject.git"
